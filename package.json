@@ -1,0 +1,17 @@
+{
+  "name": "janus-ts-sdk",
+  "version": "1.0.0",
+  "description": "Provides access to janus.js.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "Manolo Alvarez Foro",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3",
+    "webrtc-adapter": "^7.5.1"
+  }
+}
