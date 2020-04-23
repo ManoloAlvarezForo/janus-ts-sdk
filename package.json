@@ -1,6 +1,6 @@
 {
   "name": "janus-ts-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides access to janus.js.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,7 +11,20 @@
   "author": "Manolo Alvarez Foro",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.8.3",
+    "typescript": "^3.8.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
     "webrtc-adapter": "^7.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManoloAlvarezForo/janus-ts-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ManoloAlvarezForo/janus-ts-sdk/issues"
+  },
+  "homepage": "https://github.com/ManoloAlvarezForo/janus-ts-sdk#readme"
 }
